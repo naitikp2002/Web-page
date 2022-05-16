@@ -45,7 +45,6 @@ body{
   color:#fff;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  margin-right: 50px;
 }
 .heading h1{
   font-size: 40px;
@@ -85,7 +84,12 @@ input[type=text] {
 }
 .fa-solid{
 color: #072563;
-
+}
+.button .fa-solid{
+color:#e0e4e8
+}
+.logo .fa-brands{
+  color: #072563;
 }
 .user{
   float:left;
