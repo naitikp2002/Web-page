@@ -55,8 +55,8 @@ body{
   width:auto;
   height:500px;
   padding: 25px;
-  border-top-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
   border: solid rgb(10, 5, 5);
   border-width: 2px;
 }
@@ -64,11 +64,11 @@ body{
 .wrapper .sidebar{
   position:relative;
   float: left;
-  width: auto;
+  width: 225px;
   height: 525px;
   background: #ffffff;
   color: rgb(12, 12, 99);
-  padding: 30px 0px;
+  padding: 15px 15px;
   border-bottom-right-radius: 50px;
 
 }
@@ -85,6 +85,7 @@ input[type=text] {
 }
 .fa-solid{
 color: #072563;
+
 }
 .user{
   float:left;
@@ -109,6 +110,7 @@ color: #072563;
   height: auto;
 }
 .wrapper .sidebar h2{
+  padding: 20px;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -123,6 +125,7 @@ color: #072563;
 }    
 
 .wrapper .sidebar ul li a{
+  margin-left: 20px;
   color: #230f88;
   display: block;
 }
